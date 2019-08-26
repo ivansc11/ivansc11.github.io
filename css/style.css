@@ -8,4 +8,11 @@
 body{
   font-family: "Maven Pro";
   font-size: 16px;
+  background-color: #EEF0F1; /* Color gris de fondo */
 } /* Más valores por default*/
+
+
+footer{
+  margin-top: 400px; /* Es temporal. Para tener espacio extra al final de la pagina*/
+
+}
