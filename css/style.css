@@ -2,17 +2,77 @@
   padding: 0;
   margin: 0;
 
+  /* Descomentar la siguiente expresión para ver los borders: */
+  /* border: 1px red solid;*/
+
   box-sizing: border-box;
 } /* Valores default para la pagina. Se sobreescriben después si es necesario*/
 
 body{
-  font-family: "Maven Pro";
-  font-size: 16px;
-  background-color: #EEF0F1; /* Color gris de fondo */
+  font-family: "Roboto Slab";
+  font-size: 1em;
+  background: #EEF0F1; /* Color gris de fondo */
 } /* Más valores por default*/
+
+.mainBanner{
+  background-color: #283747;
+
+  /* TODO Temporalmente hasta tener una imagen buena*/
+  padding: 4em 2em;
+}
+
+.transparentBox{
+  background-color: rgba(255,255,255,0.7); /* Color con Transparencia no heredable */
+  border-radius: 0.7em;
+  padding: 1em;
+  width: 30%;
+}
+
+article.transparentBox section{
+
+}
+
+.transparentBox h1{
+  font-family: "Roboto Slab";
+  font-size: 2.5em;
+  text-align: center;
+  padding: 0.3em;
+}
+.transparentBox h2{
+  font-family: "Nunito";
+  color: #55828B;
+  font-size: 2em;
+  text-align: center;
+  padding: 0 0.3em 0.6em 0.3em;
+}
+.transparentBox p{
+  font-family: "Nunito";
+  font-size: 1em;
+  padding: 0px 2em;
+  text-align: justify;
+}
+.transparentBox .buttonPlacer{
+  text-align: center;
+}
+.transparentBox .button{
+  border: none;
+  border-radius: 0.7em;
+
+  background-color: #55828B;
+
+  padding: 0.5em;
+  margin: 1em 0;
+  width: 50%;
+
+  font-weight: 600;
+  color: #F9FAFA;
+}
+.transparentBox .button:hover{
+  background-color: #06D6A0;
+}
+
 
 
 footer{
-  margin-top: 400px; /* Es temporal. Para tener espacio extra al final de la pagina*/
-
+  margin-top: 400px; /* TODO Es temporal. Para tener espacio extra al final de la pagina*/
 }
