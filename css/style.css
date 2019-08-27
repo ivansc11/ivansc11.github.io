@@ -14,30 +14,30 @@ body{
   background: #EEF0F1; /* Color gris de fondo */
 } /* Más valores por default*/
 
-.mainBanner{
+@media (min-width: 800px) {
+  #mainBanner{
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 800px) {
+  .transparentBox{
+    margin-top: 2em;
+  }
+}
+#mainBanner{
   background-color: #283747;
-
   /* TODO Temporalmente hasta tener una imagen buena*/
   padding: 4em 2em;
 }
-
-.clearfix::after{ /* Esto es para poder "cerrar" las estructuras flotantes, asi los objetos que le siguen pueden interactuar normalmente */
-  display: table;
-  content: "";
-  clear: both;
-}
-
 .transparentBox{
   background-color: rgba(255,255,255,0.7); /* Color con Transparencia no heredable */
   border-radius: 0.7em;
   padding: 1em;
-  width: 30%;
-}
-
-article.transparentBox section{
+  flex-basis: 25%;
+  overflow-wrap: break-word; /* Para que el texto se pueda romper cuando la pantalla es muy pequeña */
 
 }
-
 .transparentBox h1{
   font-family: "Roboto Slab";
   font-size: 2.5em;
@@ -77,8 +77,7 @@ article.transparentBox section{
   background-color: #06D6A0;
 }
 
-
-
-footer{
-  padding-top: 400px; /* TODO Es temporal. Para tener espacio extra al final de la pagina*/
+#mainFooter{
+  padding-top: 200px; /* TODO Es temporal. Para tener espacio extra al final de la pagina*/
+  background-color: red;
 }
