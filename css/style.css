@@ -21,6 +21,12 @@ body{
   padding: 4em 2em;
 }
 
+.clearfix::after{ /* Esto es para poder "cerrar" las estructuras flotantes, asi los objetos que le siguen pueden interactuar normalmente */
+  display: table;
+  content: "";
+  clear: both;
+}
+
 .transparentBox{
   background-color: rgba(255,255,255,0.7); /* Color con Transparencia no heredable */
   border-radius: 0.7em;
@@ -74,5 +80,6 @@ article.transparentBox section{
 
 
 footer{
-  margin-top: 400px; /* TODO Es temporal. Para tener espacio extra al final de la pagina*/
+  padding-top: 400px; /* TODO Es temporal. Para tener espacio extra al final de la pagina*/
+  background-color: red;
 }
