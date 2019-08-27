@@ -14,7 +14,7 @@ body{
   background: #EEF0F1; /* Color gris de fondo */
 } /* Más valores por default*/
 
-.mainBanner{
+#mainBanner{
   background-color: #283747;
 
   /* TODO Temporalmente hasta tener una imagen buena*/
@@ -31,13 +31,10 @@ body{
   background-color: rgba(255,255,255,0.7); /* Color con Transparencia no heredable */
   border-radius: 0.7em;
   padding: 1em;
+  min-height: inherit;
   width: 30%;
+  overflow-wrap: break-word; /* Para que el texto se pueda romper cuando la pantalla es muy pequeña */
 }
-
-article.transparentBox section{
-
-}
-
 .transparentBox h1{
   font-family: "Roboto Slab";
   font-size: 2.5em;
@@ -80,6 +77,13 @@ article.transparentBox section{
 
 
 footer{
-  padding-top: 400px; /* TODO Es temporal. Para tener espacio extra al final de la pagina*/
+  padding-top: 200px; /* TODO Es temporal. Para tener espacio extra al final de la pagina*/
   background-color: red;
+}
+
+@media (max-width: 600px) { /* Hacerlo responsive en tamaños pequeños */
+  .transparentBox{
+    width: 100%;
+    float: none;
+  }
 }
