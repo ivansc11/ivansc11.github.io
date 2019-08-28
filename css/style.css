@@ -26,27 +26,41 @@ body{
   }
 }
 #mainBanner{
+
+  position: relative;
+  top: 10em;
+  background-image: url("/images/area-51.jpg");
+  background-size: cover;
+  background-position: bottom;
   background-color: #283747;
   /* TODO Temporalmente hasta tener una imagen buena*/
-  padding: 4em 2em;
+  padding: 12em 9em;
+
 }
 .transparentBox{
   background-color: rgba(255,255,255,0.7); /* Color con Transparencia no heredable */
   border-radius: 0.7em;
+
   padding: 1em;
-  flex-basis: 25%;
+  flex-basis: 30%;
+
   overflow-wrap: break-word; /* Para que el texto se pueda romper cuando la pantalla es muy pequeña */
 
 }
 .transparentBox h1{
   font-family: "Roboto Slab";
+
+  color: red;
+
   font-size: 2.5em;
   text-align: center;
   padding: 0.3em;
 }
 .transparentBox h2{
   font-family: "Nunito";
-  color: #55828B;
+
+  color: black;
+
   font-size: 2em;
   text-align: center;
   padding: 0 0.3em 0.6em 0.3em;
@@ -64,7 +78,9 @@ body{
   border: none;
   border-radius: 0.7em;
 
-  background-color: #55828B;
+
+  background-color: red;
+
 
   padding: 0.5em;
   margin: 1em 0;
@@ -74,7 +90,37 @@ body{
   color: #F9FAFA;
 }
 .transparentBox .button:hover{
-  background-color: #06D6A0;
+
+  background-color: white;
+  color: red;
+}
+
+
+
+.sticky{
+  top: 0;
+  position: fixed;
+  width: 100%;
+}
+#mainHeader{
+  z-index: 1;
+  background-color: #494848;
+  display: flex; 
+  justify-content: flex-end;
+  vertical-align: bottom;
+  height: 10em;
+}
+#mainHeader nav{
+  align-self: flex-end;
+  
+}
+
+#mainHeader nav a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 7px;
+
 }
 
 #mainFooter{
