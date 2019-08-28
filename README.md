@@ -10,7 +10,7 @@
 
 <h3>Tareas</h3>
 <ul>
-        <li>Header<b>TO DO</b></li>
+        <li>Header<b>TO DO(Iván esta trabajando actualmente en esta parte)</b></li>
         <li>Footer<b>TO DO</b></li>
         <li>Landing page <b>TO DO</b></li>
         <li>Seccion landing <b>TO DO</b></li>
