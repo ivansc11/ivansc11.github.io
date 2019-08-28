@@ -47,9 +47,6 @@ body{
 
   position: relative;
   top: 10em;
-  background-image: url("/images/area51-entrance5.jpg");
-  background-size: cover;
-  background-position: top;
   background-color: #283747;
   background-repeat: no-repeat;
   /* TODO Temporalmente hasta tener una imagen buena*/
