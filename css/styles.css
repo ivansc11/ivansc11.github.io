@@ -77,7 +77,7 @@ nav a{
     height: 100%;
     width: 100%;
     background-size: cover;
-    background-image: url("/images/landing-image.jpg");
+    background-image: url("../images/landing-image.jpg");
     display: flex;
     flex-wrap: wrap;
 }
@@ -88,6 +88,25 @@ nav a{
     background-color: rgba(255, 255, 255,0.5);
 
     border-radius: 10px;
+}
+
+.content-section{
+    display: flex;
+    background-color: bisque;
+}
+.content-section img{
+    height: 600px;
+    width: 600px;
+    margin: 25px;
+}
+.content-section img{
+    height: 600px;
+    width: 600px;
+    margin: 25px;
+}
+.content-section article{
+
+    margin: 25px;
 }
 #section{
     align-items: center;
