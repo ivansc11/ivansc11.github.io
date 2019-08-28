@@ -18,32 +18,43 @@ body{
   #mainBanner{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    background-image: url("../images/area51-entrance5.jpg");
+    background-size: cover;
+    background-position: top;
   }
   #mainTransBox{
-    margin: 5% 5%;
+    margin: 5% 0% 5% 5%;
+    flex-basis: 36%;
+  }
+  .transparentBox{
+    margin: 0em 6em;
   }
 }
 @media (max-width: 800px) { /* Pantalla pequeña */
+  #mainBanner{
+    background-image: url("../images/area51-entrance.jpg");
+    background-size: auto;
+  }
   .transparentBox{
-    margin: 2em;
+    margin: 2.5em;
   }
   #mainTransBox{
     margin: 3em 1.5em;
   }
-
 }
 #mainBanner{
   background-color: #283747;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   /* TODO Temporalmente hasta tener una imagen buena*/
   padding: 0.1em 0.1em;
 }
-
 
 .transparentBox{
   background-color: rgba(255,255,255,0.7); /* Color con Transparencia no heredable */
   border-radius: 0.7em;
   padding: 1.6em 1em;
-  flex-basis: 32%;
   overflow-wrap: break-word; /* Para que el texto se pueda romper cuando la pantalla es muy pequeña */
 
 }
@@ -55,7 +66,7 @@ body{
 }
 .transparentBox h2{
   font-family: "Nunito";
-  color: #55828B;
+  color: #DA0311;
   font-size: 4em;
   text-align: center;
   padding: 0 0.3em 0.6em 0.3em;
@@ -64,7 +75,10 @@ body{
   font-family: "Nunito";
   font-size: 2em;
   padding: 0px 2em;
-  text-align: justify;
+  text-align: left  ;
+} /* TODO El texto justifcado se glitchea por algun motivo */
+.transparentBox p + p{
+  text-align: left;
 }
 .transparentBox .buttonPlacer{
   text-align: center;
@@ -73,7 +87,7 @@ body{
   border: none;
   border-radius: 0.7em;
 
-  background-color: #55828B;
+  background-color: #DA0311;
 
   padding: 0.5em;
   margin: 1em 0;
@@ -88,5 +102,5 @@ body{
 
 #mainFooter{
   padding-top: 200px; /* TODO Es temporal. Para tener espacio extra al final de la pagina*/
-  background-color: red;
+  background-color: #333;
 }
