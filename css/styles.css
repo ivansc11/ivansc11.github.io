@@ -9,12 +9,14 @@ nav a{
 }
 .logo-text{
     font-family: 'Lexend Zetta', sans-serif;
-    font-size: 36px !important;
+    font-size: 18px !important;
 }
 .main-banner{
 
     position: relative;
     top: 6em;
+    
+    background-position: right;
     background-image: url("../images/area51-entrance5.jpg");
     background-repeat: no-repeat;
     background-color: green;
@@ -25,9 +27,8 @@ nav a{
 .transparent-box{
     border-radius: 10px;
     position: relative;
-    top: 7em;
-    width: 30em;
-    height: 40em;
+    top: 10em;
+    max-width: 30em;
     margin: auto;
     background-color: rgba(255,255,255,0.6);
 }
@@ -35,7 +36,7 @@ nav a{
     font-family: 'Rubik Mono One', sans-serif;
     color: rgb(218, 35, 35);
     padding: 0.5em 0.5em 0 0.5em;
-    font-size: 50px;
+    font-size: 2.5em;
 }
 .transparent-box p{
     text-align: center;
