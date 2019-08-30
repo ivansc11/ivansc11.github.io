@@ -12,7 +12,7 @@
 <ul>
         <li>Header<b>PARTIALLY DONE</b></li>
         <li>Footer<b>TO DO</b></li>
-        <li>Landing page <b>TO DO</b></li>
+        <li>Landing page <b>PARTIALLY DONE</b></li>
         <li>Seccion landing <b>TO DO</b></li>
         <li>Seccion What? <b>TO DO</b></li>
         <li>Seccion Why? <b>TO DO</b></li>
