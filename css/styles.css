@@ -1,5 +1,25 @@
 #navigation-bar{
+
+
+    z-index: 1;
     position: fixed;
-    height: 10em;
     background-color: #343a40;
+    box-shadow: 0 0 10px 0;
+}
+nav a{
+    font-size: 20px !important;
+}
+.logo-text{
+    font-family: 'Lexend Zetta', sans-serif;
+    font-size: 36px !important;
+}
+.main-banner{
+
+    position: relative;
+    top: 6em;
+    background-image: url("../images/area51-entrance5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: green;
+    height: 100em;
 }
