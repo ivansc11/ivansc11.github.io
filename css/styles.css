@@ -17,11 +17,11 @@ section{
     height: 55em;
 }
 .main-banner{
+    height:55em;
     background-position: right;
     background-image: url("../images/area51-entrance5.jpg");
     background-repeat: no-repeat;
     background-color: green;
-    height: 100em;
 
     justify-content: space-around;
 }
@@ -40,6 +40,13 @@ section{
     color: rgb(218, 35, 35);
     padding: 0.5em 0.5em 0 0.5em;
     font-size: 2.5em;
+}
+.transparent-box h2{
+    text-align: center;
+    font-weight: bolder;
+}
+.transparent-box h1 span{
+  color:black;
 }
 .transparent-box p{
     text-align: justify;
@@ -71,7 +78,3 @@ section{
 }
 .what-sidesection{
 }
-
-
-
-
