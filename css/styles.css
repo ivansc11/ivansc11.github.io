@@ -76,11 +76,6 @@ section{
     color: rgb(218, 35, 35);
     background-color: rgba(255,255,255,0.9);
 }
-.what-section{
-    background-color: #343a40;
-}
-.what-sidesection{
-}
 
 #main-form{
   background-color: rgba(255,255,255,0.6);
@@ -116,4 +111,38 @@ section{
   z-index: 1;
   background-color: #343a40;
   padding: 4em 0px;
+}
+
+.polaroid {
+    display: inline-block;
+    text-align: center;
+    background: #fff;
+    padding: 1em;
+    box-shadow: 0 0.2rem 1.2rem rgba(0,0,0,0.2);
+    
+  }
+
+  .wrapper section{
+    display: flex;
+    align-items: center;
+    height: 60em;
+    
+  }
+#what-section{
+    background-color: #343a40;
+}
+
+#what-sidesection{
+     align-content: center;
+     justify-content: center;
+     align-items: center;
+}
+ #why-section{
+     background-color: darkgray
+}
+ #how-section{
+    background-color: gainsboro;
+}
+#where-section{
+    background-color: #343a40;
 }

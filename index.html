@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,15 +14,15 @@
     <link
         href="https://fonts.googleapis.com/css?family=Montserrat+Subrayada:700|Montserrat:700|Rubik+Mono+One&display=swap"
         rel="stylesheet">
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-            crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-            crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 
     <title>Raid area 51!</title>
 </head>
@@ -45,16 +44,16 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
             <ul class="navbar-nav text-center">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">What?<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#what-section">What?<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Why?</a>
+                    <a class="nav-link" href="#why-section">Why?</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">How?</a>
+                    <a class="nav-link" href="#how-section">How?</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Where?</a>
+                    <a class="nav-link" href="#where-section">Where?</a>
                 </li>
 
             </ul>
@@ -63,24 +62,26 @@
 
     </nav>
 
-    <div class="container-fluid">
+    <div class="container-fluid wrapper">
         <!-- Realize un in-line style en esta etiqueta porque en el css no se aplica por alguna razon que desconozco -->
-        <section id="main-banner" class="row" >
+        <section id="main-banner" class="row">
             <div class="col-xl-6 col-md-6 col-xs-12">
                 <article class="transparent-box">
                     <h1>Rise up, <br> Gamers! <span> <br> It's time to raid Area 51! </span></h1>
                     <p>The battle for Area 51 has begun! Bring your naturo-running skills and your tin-foil hats, for
                         they will be of utmost importance in order to survive.
                         <br> <b>Let's achieve the maximum Victory Royale!</b></p>
-                    <a class="mb-4" href="">Join now!</a>
+                    <a class="mb-4" href="#main-form">Join now!</a>
                 </article>
 
             </div>
-            <div class="col-xl-6 col-md-6 col-xs-12"></div>
-        </section>
-        <section class="what-section row">
-            <div class="col-md-6 what-sidesection mt-5">
+            <div class="col-xl-6 col-md-6 col-xs-12">
 
+            </div>
+        </section>
+        <section id="what-section" class="row p-5">
+            <div class="col-md-6">
+                    
             </div>
             <div class="col-md-6">
                 <article class="transparent-box p-2">
@@ -95,7 +96,7 @@
                 </article>
             </div>
         </section>
-        <section class="why-section row">
+        <section id="why-section" class="row p-5">
             <div class="col-md-6 mt-5">
                 <article class="transparent-box p-2">
                     <h1>Why?</h1>
@@ -112,7 +113,7 @@
 
             </div>
         </section>
-        <section class="how-section row">
+        <section id="how-section" class="row p-5">
             <div class="col-md-6 mt-5">
 
             </div>
@@ -129,7 +130,7 @@
                 </article>
             </div>
         </section>
-        <section class="where-section row">
+        <section id="where-section" class="row p-5">
             <div class="col-md-6 mt-5">
                 <article class="transparent-box p-2">
                     <h1>Where?</h1>
@@ -153,82 +154,82 @@
     <section id="main-form">
         <h1>Sign up here!</h1>
         <form>
-          <div class="form-group">
-            <label for="inputEmail">Email Address</label>
-            <input type="email" class="form-control" id="inputEmail" placeholder="example@email.com">
-          </div>
-          <div class="form-row">
-            <div class="form-group col-md-6">
-              <label for="inputName">Name</label>
-              <input type="text" class="form-control" id="inputName" placeholder="John">
+            <div class="form-group">
+                <label for="inputEmail">Email Address</label>
+                <input type="email" class="form-control" id="inputEmail" placeholder="example@email.com">
             </div>
-            <div class="form-group col-md-6">
-              <label for="inputSurname">Surname</label>
-              <input type="text" class="form-control" id="inputSurname" placeholder="Doe">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputName">Name</label>
+                    <input type="text" class="form-control" id="inputName" placeholder="John">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputSurname">Surname</label>
+                    <input type="text" class="form-control" id="inputSurname" placeholder="Doe">
+                </div>
             </div>
-          </div>
 
-          <div class="form-row">
-            <div class="form-group col-md-2">
-              <label for="inputDay">Day</label>
-              <input type="number" class="form-control" id="inputDay" placeholder="20">
+            <div class="form-row">
+                <div class="form-group col-md-2">
+                    <label for="inputDay">Day</label>
+                    <input type="number" class="form-control" id="inputDay" placeholder="20">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputMonth">Month</label>
+                    <select id="inputMonth" class="form-control">
+                        <option>January</option>
+                        <option>February</option>
+                        <option>March</option>
+                        <option>April</option>
+                        <option>May</option>
+                        <option>June</option>
+                        <option>July</option>
+                        <option>August</option>
+                        <option>September</option>
+                        <option>October</option>
+                        <option>November</option>
+                        <option>December</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="inputYear">Year</label>
+                    <input type="number" class="form-control" id="inputYear" placeholder="1969">
+                </div>
             </div>
-            <div class="form-group col-md-6">
-              <label for="inputMonth">Month</label>
-              <select id="inputMonth" class="form-control">
-                <option>January</option>
-                <option>February</option>
-                <option>March</option>
-                <option>April</option>
-                <option>May</option>
-                <option>June</option>
-                <option>July</option>
-                <option>August</option>
-                <option>September</option>
-                <option>October</option>
-                <option>November</option>
-                <option>December</option>
-              </select>
-            </div>
-            <div class="form-group col-md-4">
-              <label for="inputYear">Year</label>
-              <input type="number" class="form-control" id="inputYear" placeholder="1969">
-            </div>
-          </div>
 
-          <div class="form-group">
-            <label for="inputGender">What do you indentify as? We do not want to assume any genders. </label>
-            <select id="inputgender" class="form-control">
-              <option>Undefined</option>
-              <option>Male</option>
-              <option>Female</option>
-              <option>Attack Helicopter</option>
-            </select>
-          </div>
-          <div class="form-row">
-            <div class="form-group col-md-6">
-              <label for="inputCountry">Country</label>
-              <input type="text" class="form-control" id="inputCountry" placeholder="Country">
+            <div class="form-group">
+                <label for="inputGender">What do you indentify as? We do not want to assume any genders. </label>
+                <select id="inputgender" class="form-control">
+                    <option>Undefined</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Attack Helicopter</option>
+                </select>
             </div>
-            <div class="form-group col-md-6">
-              <label for="inputCity">City</label>
-              <input type="text" class="form-control" id="inputCity" placeholder="City">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputCountry">Country</label>
+                    <input type="text" class="form-control" id="inputCountry" placeholder="Country">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputCity">City</label>
+                    <input type="text" class="form-control" id="inputCity" placeholder="City">
+                </div>
             </div>
-          </div>
 
-          <div class="form-group">
-            <label for="inputReason">Why do you think you are fit for the raid?</label>
-            <textarea class="form-control" id="inputReason" rows="4"></textarea>
-          </div>
-          <div class="row">
-            <button type="submit" class="btn col-xl-4 offset-xl-4 ">Send Submission</button>
-          </div>
+            <div class="form-group">
+                <label for="inputReason">Why do you think you are fit for the raid?</label>
+                <textarea class="form-control" id="inputReason" rows="4"></textarea>
+            </div>
+            <div class="row">
+                <button type="submit" class="btn col-xl-4 offset-xl-4 ">Send Submission</button>
+            </div>
         </form>
     </section>
 
     <!-- TODO Placeholder footer para poder hacer el form -->
     <footer id="main-footer" class="font-small">
-      <p>Placeholder content</p>
+        <p>Placeholder content</p>
     </footer>
 
 </body>
