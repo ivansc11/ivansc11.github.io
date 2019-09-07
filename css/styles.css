@@ -14,7 +14,7 @@ nav a{
 }
 section{
     position: relative;
-    padding: 5em 0;
+    padding: 2em 0;
 }
 #main-banner{
     padding: 13em 0;
@@ -26,7 +26,6 @@ section{
     justify-content: space-around;
 }
 #main-banner .transparent-box{
-    top: 12%;
 }
 .transparent-box{
     font-family: 'Maven Pro', sans-serif;
@@ -85,7 +84,6 @@ section{
 
 #main-form{
   background-color: rgba(255,255,255,0.6);
-  top: 0;
   height: auto;
   padding: 3em 25% 1em 25%;
   font-family: "Maven Pro", sans-serif;
