@@ -14,11 +14,10 @@ nav a{
 }
 section{
     position: relative;
-    top: 6em;
-    height: 55em;
+    padding: 5em 0;
 }
-.main-banner{
-    height:55em;
+#main-banner{
+    padding: 13em 0;
     background-position: right;
     background-image: url("../images/area51-entrance5.jpg");
     background-repeat: no-repeat;
@@ -26,11 +25,13 @@ section{
 
     justify-content: space-around;
 }
+#main-banner .transparent-box{
+    top: 12%;
+}
 .transparent-box{
     font-family: 'Maven Pro', sans-serif;
     border-radius: 10px;
     position: relative;
-    top: 10em;
     max-width: 30em;
     margin: auto;
     background-color: rgba(255,255,255,0.6);
