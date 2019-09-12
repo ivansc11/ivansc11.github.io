@@ -25,8 +25,7 @@ section{
 
     justify-content: space-around;
 }
-#main-banner .transparent-box{
-}
+
 .transparent-box{
     font-family: 'Maven Pro', sans-serif;
     border-radius: 10px;
@@ -113,19 +112,47 @@ section{
   padding: 4em 0px;
 }
 
-.polaroid {
-    display: inline-block;
-    text-align: center;
-    background: #fff;
-    padding: 1em;
-    box-shadow: 0 0.2rem 1.2rem rgba(0,0,0,0.2);
-    
-  }
 
-  .wrapper section{
+.grid{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15px;
+  padding: 1em;
+}
+.grid-item img{
+  width: 100%;
+  height:100%;
+  object-fit: cover;
+}
+.item-a{
+  object-fit: cover;
+  align-self: stretch;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+.item-b{
+  object-fit: cover;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+
+}
+.item-c{
+  object-fit: cover;
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+.item-d{
+  object-fit: cover;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.wrapper section{
     display: flex;
     align-items: center;
-    height: 60em;
+    min-height: 60em;
+    height: auto;
     
   }
 #what-section{
@@ -145,4 +172,40 @@ section{
 }
 #where-section{
     background-color: #343a40;
+}
+
+@media screen and (max-width: 992px) {
+  .grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+    padding: 1em;
+  }
+  .grid-item img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+  }
+  .item-a{
+    object-fit: cover;
+    align-self: stretch;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+  .item-b{
+    object-fit: cover;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  
+  }
+  .item-c{
+    object-fit: cover;
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+  }
+  .item-d{
+    object-fit: cover;
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+  }
 }
