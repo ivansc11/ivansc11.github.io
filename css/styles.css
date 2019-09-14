@@ -209,3 +209,9 @@ section{
     grid-row: 4 / 5;
   }
 }
+
+.iframe-add{
+  align: middle;
+  width: 100%;
+  height: 600px;
+  }
