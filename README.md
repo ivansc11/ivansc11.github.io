@@ -14,8 +14,8 @@
         <li>Footer<b>TO DO</b></li>
         <li>Landing page <b>PARTIALLY DONE</b></li>
         <li>Seccion landing <b>TO DO</b></li>
-        <li>Seccion What? <b>PARTIALLY DONE</b></li>
-        <li>Seccion Why? <b>TO DO</b></li>
+        <li>Seccion What? <b>Falta aprobar texto</b></li>
+        <li>Seccion Why? <b>Falta aprobar texto</b></li>
         <li>Seccion Where? <b>TO DO</b></li>
         <li>Seccion How? <b>TO DO</b></li>
         <li>Gallery page <b>TO DO</b></li>
