@@ -10,7 +10,7 @@ nav a{
 }
 .logo-text{
     font-family: 'Lexend Zetta', sans-serif;
-    font-size: 18px !important;
+    font-size: 30px !important;
 }
 section{
     position: relative;
@@ -153,7 +153,7 @@ section{
     align-items: center;
     min-height: 60em;
     height: auto;
-    
+
   }
 #what-section{
     background-color: #343a40;
@@ -196,7 +196,7 @@ section{
     object-fit: cover;
     grid-column: 1 / 2;
     grid-row: 2 / 3;
-  
+
   }
   .item-c{
     object-fit: cover;
