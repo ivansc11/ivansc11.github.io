@@ -21,7 +21,7 @@ section{
     background-position: right;
     background-image: url("../images/area51-entrance5.jpg");
     background-repeat: no-repeat;
-    background-color: green;
+    background-color: #343a40;
 
     justify-content: space-around;
 }
