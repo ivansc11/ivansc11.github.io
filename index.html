@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/path/to/flickity.css" media="screen">
+    <script src="/path/to/flickity.pkgd.min.js"></script>
     <link rel="stylesheet" href="../css/styles.css" type="text/css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -84,10 +86,11 @@
             <div class="col-xl-6 col-md-6 co-l-xs-12">
               <article class="countdown p-4">
                 <h1>COUNTDOWN</h1>
-                <div class="countdown-div">
-                  <span id="countdown-days">00</span>
-                  Days
+
+                <div class="countdown-div" id="countdown-div-days">
+                  <span id="countdown-days">DAYS: 00</span>
                 </div>
+                <br>
                 <div class="countdown-div">
                   <span id="countdown-hours">00</span>
                   Hours
@@ -101,7 +104,7 @@
                   Seconds
                 </div>
 
-                <p>INVASION DATE:</p>
+                <p>INVATION DATE:</p>
                 <p><i>19/09/2019 AT 22:00</i></p>
 
               </article>
@@ -109,12 +112,11 @@
         </section>
         <section id="what-section" class="row pb-5 pt-5">
             <div class="col-xl-6 col-md-6 col-xs-12">
-                <div class="grid">
-                    <div class="grid-item item-a"><img src="/images/image1-jpeg" alt=""></div>
-                    <div class="grid-item item-b"><img src="/images/image2.jpg" alt=""></div>
-                    <div class="grid-item item-c"><img src="/images/image3.jpg" alt=""></div>
-                    <div class="grid-item item-d"><img src="/images/image4.jpg" alt=""></div>
-                </div>
+              <div class="carousel js-flickerty">
+                <div class="carousel-cell"></div>
+                <div class="carousel-cell"></div>
+                <div class="carousel-cell"></div>
+              </div>
             </div>
             <div class="col-md-6 col-sm-12">
                 <article class="transparent-box p-2">
@@ -137,17 +139,13 @@
                 </article>
             </div>
             <div class="col-md-6">
-                    <div class="grid">
-                            <div class="grid-item item-a"><img src="/images/image1-jpeg" alt=""></div>
-                            <div class="grid-item item-b"><img src="/images/image2.jpg" alt=""></div>
-                            <div class="grid-item item-c"><img src="/images/image3.jpg" alt=""></div>
-                            <div class="grid-item item-d"><img src="/images/image4.jpg" alt=""></div>
-                        </div>
+               <div id="what-carousel">
+               </div>
             </div>
         </section>
         <section id="how-section" class="row pb-5 pt-5">
             <div class="pb-2 pt-2 col-md-6">
-              <div id="how-video" class="iframe-add embed-responsive embed-responsive-16by9 d-flex justify-content-center">
+              <div id="how-video" class="iframe-add embed-responsive embed-responsive-16by9">
                 <iframe class="embed-responsive-item iframe-add" src="https://www.youtube.com/embed/I8lYTq4pGB8" allowfullscreen></iframe>
               </div>
             </div>
@@ -173,7 +171,7 @@
             </div>
             <div class="col-md-6">
                 <article id="where-map" class="pb-2 pt-2">
-                  <iframe id="area-51-map" class= "iframe-add" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d33130.7413199903!2d-115.82801770519875!3d37.2360390439329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDE0JzQxLjQiTiAxMTXCsDQ5JzAyLjAiVw!5e1!3m2!1ses!2sar!4v1568494797966!5m2!1ses!2sar" allowfullscreen=""></iframe>
+                  <iframe id="area-51-map" class= "iframe-add" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d33130.7413199903!2d-115.82801770519875!3d37.2360390439329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDE0JzQxLjQiTiAxMTXCsDQ5JzAyLjAiVw!5e1!3m2!1ses!2sar!4v1568494797966!5m2!1ses!2sar" allowfullscreen="" ></iframe>
                 </article>
             </div>
         </section>
@@ -259,7 +257,10 @@
 
     <!-- TODO Placeholder footer para poder hacer el form -->
     <footer id="main-footer" class="font-small">
-        <p>Placeholder content</p>
+        <ul>
+          <li>Copyright 5.763 A.C - 4.009 D.C</li>
+          <li>Amarante - Mierez - </li>
+        </ul>
     </footer>
 
 </body>
