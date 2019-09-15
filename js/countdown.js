@@ -11,7 +11,7 @@ var count = new Date('sep 19, 2019 22:00:00').getTime();
   			var minutes = Math.floor((d%(1000*10*60))/(1000*60));
   			var seconds = Math.floor((d%(1000*60))/1000);
 
-  			document.getElementById('countdown-days').innerHTML = days;
+  			document.getElementById('countdown-days').innerHTML ='Days: '+ days;
   			document.getElementById('countdown-hours').innerHTML = hours;
   			document.getElementById('countdown-minutes').innerHTML = minutes;
   			document.getElementById('countdown-sec').innerHTML = seconds;
