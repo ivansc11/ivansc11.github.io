@@ -325,11 +325,11 @@ footer h1{
   }
 
 #why-carousel{
-  background-color: rgba(0,0,0,0.8);
-  border-radius: 2.5%;
-  margin: 2px auto;
+  background-color: rgba(0,0,0,0.8)!important;
+  border-radius: 2.5% !important;
+  margin: 2px auto !important;
   }
 
 .carousel-item img{
-  margin: 0 auto;
+  margin: 0 auto !important;
   }
