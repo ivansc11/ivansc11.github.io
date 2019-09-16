@@ -6,10 +6,15 @@ var count = new Date('sep 19, 2019 22:00:00').getTime();
       if(d <= 0){
 				clearInterval(x);
 			}else{
-        var days = Math.floor(d/86400000);
-  			var hours = Math.floor((d%(10000*8*60*24))/(1000*60*60));
-  			var minutes = Math.floor((d%(1000*10*60))/(1000*60));
-  			var seconds = Math.floor((d%(1000*60))/1000);
+				var seconds = Math.floor(d/1000);
+				var minutes = Math.floor(seconds/60);
+				var hours = Math.floor(minutes/60);
+        var days = Math.floor(hours/24);
+
+				seconds%=60;
+				minutes%=60;
+				hours%=24;
+
 
   			document.getElementById('countdown-days').innerHTML ='Days: '+ days;
   			document.getElementById('countdown-hours').innerHTML = hours;
