@@ -234,7 +234,7 @@ section{
   letter-spacing: 3px;
   text-shadow: 2px 2px grey;
   font-size: 45px;
-  color: blue;
+  color: rgb(218, 35, 35);
   }
 
 .countdown div{
@@ -244,8 +244,8 @@ section{
 .countdown p{
   font-size: 25px;
   letter-spacing: 2px !important;
-  color: yellow;
-  text-shadow: 2px 2px black;
+  color: rgb(218, 35, 35);
+  text-shadow: 2px 2px rgb(218, 35, 35);
   margin-bottom: 0px !important;
   }
 
