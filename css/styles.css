@@ -8,6 +8,9 @@
 nav a{
     font-size: 20px !important;
 }
+.navbar-brand img{
+  width: 70px;
+}
 .logo-text{
     font-family: 'Lexend Zetta', sans-serif;
     font-size: 30px !important;
@@ -49,7 +52,6 @@ section{
   color:black;
 }
 .transparent-box p{
-    text-align: justify;
     padding: 0.2em 0.7em 0 0.7em;
     font-size: 24px;
 }
@@ -241,7 +243,7 @@ section{
   color: white;
   }
 
-.countdown p{
+.countdown {
   font-size: 25px;
   letter-spacing: 2px !important;
   color: rgb(218, 35, 35);
@@ -255,7 +257,7 @@ section{
   height:60px;
   border:2px solid;
   margin: 20px 0.5vw;
-  font-size: 9px;
+  font-size: 16px;
   border-radius: 50%
   }
 

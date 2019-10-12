@@ -41,7 +41,7 @@
 
     <nav id="navigation-bar" class="container-fluid navbar navbar-expand-lg navbar-dark bg-dark">
         <!-- La imagen es placeholder -->
-        <a class="navbar-brand logo-text" href="#"> <img src="images/logo.png" style="width: 70px" alt="">
+        <a class="navbar-brand logo-text" href="#"> <img src="images/logo.png"  alt="link1">
             <span class="d-none d-md-inline">RAID AREA 51</span>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -85,7 +85,7 @@
             </div>
             <div class="col-xl-6 col-md-6 co-l-xs-12">
               <article class="countdown p-4">
-                <h1>COUNTDOWN</h1>
+                <h2>COUNTDOWN</h1>
 
                 <div class="countdown-div" id="countdown-div-days">
                   <span id="countdown-days">DAYS: 00</span>
@@ -103,9 +103,9 @@
                   <span id="countdown-sec">00</span>
                   Seconds
                 </div>
-
-                <p>INVATION DATE:</p>
-                <p><i>19/09/2019 AT 22:00</i></p>
+                <h3>INVASION DATE:</h3>
+                <h4><i>19/09/2019 AT 22:00</i></h4>
+                
 
               </article>
             </div>
@@ -158,13 +158,13 @@
               <div id="why-carousel" class="carousel slide p-2 m-2" data-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="d-block w-75 h-75" src="images/area-51-meme-01.jpg" alt="meme">
+                    <img class="d-block w-75 h-75" src="images/area-51-meme-01.jpg" alt="meme1">
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-75 h-75" src="images/area-51-meme-02.jpg" alt="meme">
+                    <img class="d-block w-75 h-75" src="images/area-51-meme-02.jpg" alt="meme2">
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-75 h-75" src="images/area-51-meme-03.jpg" alt="meme">
+                    <img class="d-block w-75 h-75" src="images/area-51-meme-03.jpg" alt="meme3">
                   </div>
                 </div>
               <a class="carousel-control-prev" href="#what-carousel" role="button" data-slide="prev">
@@ -180,8 +180,8 @@
         </section>
         <section id="how-section" class="row pb-5 pt-5">
             <div class="pb-2 pt-2 col-md-6">
-              <div id="how-video" class="iframe-add embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item iframe-add" src="https://www.youtube.com/embed/I8lYTq4pGB8" allowfullscreen></iframe>
+              <div id="how-video"  class="iframe-add embed-responsive embed-responsive-16by9">
+                <iframe title="iframe1" class="embed-responsive-item iframe-add" src="https://www.youtube.com/embed/I8lYTq4pGB8" allowfullscreen></iframe>
               </div>
             </div>
             <div class="col-md-6">
@@ -206,7 +206,7 @@
             </div>
             <div class="col-md-6">
                 <article id="where-map" class="pb-2 pt-2">
-                  <iframe id="area-51-map" class= "iframe-add" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d33130.7413199903!2d-115.82801770519875!3d37.2360390439329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDE0JzQxLjQiTiAxMTXCsDQ5JzAyLjAiVw!5e1!3m2!1ses!2sar!4v1568494797966!5m2!1ses!2sar" allowfullscreen="" ></iframe>
+                  <iframe title="iframe2" id="area-51-map" class= "iframe-add" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d33130.7413199903!2d-115.82801770519875!3d37.2360390439329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDE0JzQxLjQiTiAxMTXCsDQ5JzAyLjAiVw!5e1!3m2!1ses!2sar!4v1568494797966!5m2!1ses!2sar" allowfullscreen="" ></iframe>
                 </article>
             </div>
         </section>
@@ -262,12 +262,15 @@
 
             <div class="form-group">
                 <label for="inputGender">What do you indentify as? We do not want to assume any genders. </label>
-                <select id="inputgender" class="form-control">
-                    <option>Undefined</option>
-                    <option>Male</option>
-                    <option>Female</option>
-                    <option>Attack Helicopter</option>
-                </select>
+                <div>
+                  <select id="inputGender" class="form-control">
+                  <option>Undefined</option>
+                  <option>Male</option>
+                  <option>Female</option>
+                  <option>Attack Helicopter</option>
+              </select>
+            </div>
+                
             </div>
             <div class="form-row">
                 <div class="form-group col-md-6">
